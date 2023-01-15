@@ -341,7 +341,6 @@ footer p {
         flex-wrap: wrap;
         align-items: center;
         gap: 60px;
-        position: relative;
     }
 
     .feature-article {
@@ -355,7 +354,13 @@ footer p {
         margin-top: 10px;
     }
 
+    .feature-img img {
+        width: 100%;
+    }
+
     .TenYearExp {
+        box-sizing: content-box;
+        align-items: flex-start;
         width: 160.83px;
         height: 100px;
         background-color: #FF900E;
@@ -363,8 +368,8 @@ footer p {
         border-radius: 8px;
         text-align: center;
         color: #ffffff;
-        position: absolute;
-        margin-top: 620px;
+        position: static;
+        margin: 0;
     }
 
     /* Our Sponsor */
