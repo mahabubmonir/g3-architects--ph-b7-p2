@@ -341,6 +341,7 @@ footer p {
         flex-wrap: wrap;
         align-items: center;
         gap: 60px;
+        position: relative;
     }
 
     .feature-article {
@@ -362,6 +363,8 @@ footer p {
         border-radius: 8px;
         text-align: center;
         color: #ffffff;
+        position: absolute;
+        margin-top: 620px;
     }
 
     /* Our Sponsor */
